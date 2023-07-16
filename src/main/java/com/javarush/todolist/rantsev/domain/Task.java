@@ -12,7 +12,7 @@ import javax.validation.constraints.Size;
 @Setter
 
 @Entity
-@Table(name = "task")
+@Table(schema = "todo", name = "task")
 public class Task {
 
     @Id
